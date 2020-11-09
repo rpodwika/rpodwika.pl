@@ -27,6 +27,10 @@ const links = {
 };
 
 const Social = () => {
+  const onOpenGithubPage = () => {
+    window.open('https://github.com/rpodwika/rpodwika.pl', '_blank')
+  }
+
   return (
     <GridElement>
       <Flex
@@ -47,7 +51,7 @@ const Social = () => {
                 <FontAwesomeIcon icon={links[link].icon} size="3x" />
               </SocialLink>
             ))}
-            <SecondaryButton display="inline-flex">
+            <SecondaryButton display="inline-flex" onClick={onOpenGithubPage}>
               <Flex alignItems="center" p="2px" justifyItems="space-between">
                 <FontAwesomeIcon icon={faCodeBranch} />
                 <Text ml="8px">See this page's code</Text>
