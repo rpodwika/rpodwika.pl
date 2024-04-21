@@ -20,14 +20,14 @@
     "react-dom": "^16.13.1",
     "react-flip-toolkit": "^7.0.9",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1",
-    "react-wordcloud": "^1.2.3",
+    "react-scripts": "^5.0.1",
+    "react-wordcloud": "^1.0.5",
     "react3dtagcloud": "^0.2.2",
     "styled-breakpoints": "^8.1.2",
     "styled-components": "^5.1.0",
-    "three": "^0.115.0",
+    "three": "^0.163.0",
     "typescript": "^3.7.5",
-    "vanta": "^0.5.14"
+    "vanta": "^0.5.24"
   },
   "scripts": {
     "start": "react-scripts start",
